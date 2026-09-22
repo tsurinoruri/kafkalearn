@@ -1,7 +1,7 @@
-package com.example.order_service;
+package com.example.order_service.ordermodel;
 
 public record Order(
-        String orderId,
+        Long orderId,
         String product,
         Integer quantuty
 ) {

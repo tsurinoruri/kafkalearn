@@ -1,5 +1,6 @@
-package com.example.order_service;
+package com.example.order_service.kafka;
 
+import com.example.order_service.ordermodel.Order;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
